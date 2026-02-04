@@ -1,0 +1,31 @@
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

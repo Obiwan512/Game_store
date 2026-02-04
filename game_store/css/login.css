@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1f1f1f, #141414);
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: #222;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 350px;
+    position: relative;
+}
+
+h2 {
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border: 1px solid #ff6600;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4500;
+}
+
+.error-message {
+    color: #ff4500;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-message {
+    margin-top: 15px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.register-message a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.register-message a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
